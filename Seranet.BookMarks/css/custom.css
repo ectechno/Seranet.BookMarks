@@ -1,0 +1,317 @@
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later 
+.sidebar {
+  display: none;
+}*/
+
+
+
+
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+#logo h1{
+	text-indent:-9999px;
+}
+#logo h1 a{
+	background:url(../images/logo.png) no-repeat center;
+	display:block;
+	background-size:70% !important;
+}
+
+.navbar-toggle {
+	border: 1px solid #ffffff;
+	float:left;
+	margin-top:20px;
+}
+.navbar-toggle .icon-bar{
+	background:#FFF;
+}
+
+
+
+/* STYLING APP LIST */
+#app-list li a{
+	margin-bottom:3px;
+	display:block;
+}
+
+#app-list{ padding:0;}
+
+#app-list ul{margin-left: 0}
+
+#app-list li{
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.menu-specs{
+    position: relative;
+    float: left;
+    z-index: 1;
+    background-position: 20px center;
+    padding: 25px 0 20px 63px;
+}
+
+.menu-specs div{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 26px
+}
+
+#app-list li a, #app-list li span{
+    z-index: 2;
+}
+
+#app-list li{
+    -webkit-transition: background-color ease 0.5s;
+    -moz-transition: background-color ease 0.5s;
+    -ms-transition: background-color ease 0.5s;
+    -o-transition:  background-color ease 0.5s;
+    transition:  background-color ease 0.5s;
+}
+#app-list li:hover{
+     background-color: #E86427;
+}
+
+#app-list li .menu-specs a{
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#app-list li .menu-specs span{
+    display: block;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+
+#app-list li:hover .menu-specs span{
+    color: #000000;
+}
+
+#app-list li.active-menu-item .menu-specs span{
+    color: #000000;
+}
+
+
+#user-header ul>li {
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	line-height: 16px;
+}
+#user-header ul.nav>li {
+	color: #434343;
+}
+#user-header ul.nav>li a, button a {
+	background: none;
+	text-shadow: none;
+	position: relative;
+	display: block;
+}
+#user-header a[role="button"] .title {
+	display: block;
+	float: left;
+	padding: 0 8px 0 10px;
+}
+#user-header span.name {
+	font-size: 36px;
+	float: right;
+	line-height: 36px;
+	padding: 5px 10px 10px 0;
+	color:#000000;
+}
+#user-header span.subtitle {
+	font-size: 18px;
+	float: right;
+	clear: right;
+	padding-right:12px;
+	color:#E86427;
+}
+
+#search-area{
+	margin-bottom:20px;
+}
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.sidebar {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		background-color: #161719;
+		border-right: 0px solid #E86427;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+		background-color: #161719;
+		border-right: 0px solid #E86427;
+	  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#logo h1{
+		float:left;
+	}
+	#logo h1 a{
+		width:230px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/* METRO ICONS */
+.home-icon      {background-image: url("../images/icons/home.png");           background-repeat: no-repeat}
+.aboutus-icon   {background-image: url("../images/icons/aboutus.png");        background-repeat: no-repeat}
+.services-icon  {background-image: url("../images/icons/services.png");       background-repeat: no-repeat}
+.portfolio-icon {background-image: url("../images/icons/portfolio.png");      background-repeat: no-repeat}
+.blog-icon      {background-image: url("../images/icons/blog.png");           background-repeat: no-repeat}
+.contact-icon   {background-image: url("../images/icons/contact.png");        background-repeat: no-repeat}
+.announce-icon  {background-image: url("../images/icons/announce.png");       background-repeat: no-repeat}
+.info-icon      {background-image: url("../images/icons/info-icon.png");      background-repeat: no-repeat}
+.to-left-icon   {background-image: url("../images/icons/to-left-arrow.png");  background-repeat: no-repeat}
+.to-left-icon-b {background-image: url("../images/icons/to-left-icon-black.png");  background-repeat: no-repeat}
+.to-right-icon  {background-image: url("../images/icons/to-right-arrow.png"); background-repeat: no-repeat}
+.pencil-icon    {background-image: url("../images/icons/pencil.png");         background-repeat: no-repeat}
+.android-icon   {background-image: url("../images/icons/android.png");        background-repeat: no-repeat}
+.connection-icon{background-image: url("../images/icons/connection.png");     background-repeat: no-repeat}
+.twitter-icon   {background-image: url("../images/icons/twitter.png");        background-repeat: no-repeat}
+.clients-icon   {background-image: url("../images/icons/clients.png");        background-repeat: no-repeat}
+.welcome-icon   {background-image: url("../images/icons/welcome.png");        background-repeat: no-repeat}
+.calendar-icon  {background-image: url("../images/icons/calendar.png");       background-repeat: no-repeat}
+.phone-icon     {background-image: url("../images/icons/phone.png");          background-repeat: no-repeat}
+.mail-icon      {background-image: url("../images/icons/mail.png");           background-repeat: no-repeat}
+.mail-icon-b    {background-image: url("../images/icons/mail-b.png");         background-repeat: no-repeat}
+.info-icon-b    {background-image: url("../images/icons/info-icon-b.png");    background-repeat: no-repeat}
+.star-icon-b    {background-image: url("../images/icons/star-icon-b.png");    background-repeat: no-repeat}
+.drupal-icon    {background-image: url("../images/icons/drupal.png");         background-repeat: no-repeat}
+.doc-list-icon  {background-image: url("../images/icons/doc-list.png");       background-repeat: no-repeat}
+.connection-w   {background-image: url("../images/icons/connection-w.png");   background-repeat: no-repeat}
+.grid           {background-image: url("../images/icons/grid.png");           background-repeat: no-repeat}
+.tag-cloud      {background-image: url("../images/icons/tag-cloud.png");      background-repeat: no-repeat}
+.faq            {background-image: url("../images/icons/faq.png");            background-repeat: no-repeat}
+.title-icon     {background-image: url("../images/icons/title.png");          background-repeat: no-repeat}
+.magnifier      {background-image: url("../images/icons/magnifier.png");      background-repeat: no-repeat}
+.icon-facebook  {background-image: url("../images/icons/facebook.png");       background-repeat: no-repeat}
+
+.to-left-icon-db {background-image: url("../images/icons/to-left-arrow-double.png");  background-repeat: no-repeat}
+.to-right-icon-db{background-image: url("../images/icons/to-right-arrow-double.png"); background-repeat: no-repeat}
+
+/* OTHER ICONS */
+.twitter-white-icon {background-image: url("../images/icons/twitter-white-icon.png"); background-repeat: no-repeat}
+.plus               {background-image: url("img/plus.png")!important;}
+
+/* SOCIAL ICONS */
+.social-facebook    {background-image: url("../images/icons/social-facebook.png");}
+.social-twitter     {background-image: url("../images/icons/social-twitter.png");}
+.social-youtube     {background-image: url("../images/icons/social-youtube.png");}
+.social-whale       {background-image: url("../images/icons/social-whale.png");}
+
+.black-icon-android      {background-image: url("../images/icons/black/android.png");background-repeat: no-repeat}
+.black-icon-announce     {background-image: url("../images/icons/black/announce.png");background-repeat: no-repeat}
+.black-icon-calendar     {background-image: url("../images/icons/black/calendar.png");background-repeat: no-repeat}
+.black-icon-clients      {background-image: url("../images/icons/black/clients.png");background-repeat: no-repeat}
+.black-icon-cloud        {background-image: url("../images/icons/black/cloud.png");background-repeat: no-repeat}
+.black-icon-connection   {background-image: url("../images/icons/black/connection.png");background-repeat: no-repeat}
+.black-icon-document     {background-image: url("../images/icons/black/document.png");background-repeat: no-repeat}
+.black-icon-drupal       {background-image: url("../images/icons/black/drupal.png");background-repeat: no-repeat}
+.black-icon-faq          {background-image: url("../images/icons/black/faq.png");background-repeat: no-repeat}
+.black-icon-grid         {background-image: url("../images/icons/black/grid.png");background-repeat: no-repeat}
+.black-icon-info         {background-image: url("../images/icons/black/info.png");background-repeat: no-repeat}
+.black-icon-left         {background-image: url("../images/icons/black/left.png");background-repeat: no-repeat}
+.black-icon-magnifier    {background-image: url("../images/icons/black/magnifier.png");background-repeat: no-repeat}
+.black-icon-mail         {background-image: url("../images/icons/black/mail.png");background-repeat: no-repeat}
+.black-icon-pencil       {background-image: url("../images/icons/black/pencil.png");background-repeat: no-repeat}
+.black-icon-star         {background-image: url("../images/icons/black/star.png");background-repeat: no-repeat}
+.black-icon-title        {background-image: url("../images/icons/black/title.png");background-repeat: no-repeat}
+.black-icon-twitter      {background-image: url("../images/icons/black/twitter.png");background-repeat: no-repeat}
+.black-icon-customer     {background-image: url("../images/icons/black/customer.png");background-repeat: no-repeat}
+
+.white-social-face  {background-image: url("one_icons/social_facebook.png");background-repeat: no-repeat}
+.white-social-twit  {background-image: url("one_icons/social_twitter.png");background-repeat: no-repeat}
+.white-social-goog  {background-image: url("one_icons/social_google_plus.png");background-repeat: no-repeat}
+.white-social-yout  {background-image: url("one_icons/social_youtube.png");background-repeat: no-repeat}

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMarks</title>
+    @*@Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")*@
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css" />
+    <link href="css/custom.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' />
+    <script>
+        if (location.href.indexOf('/', location.href.length - 1) === -1) {
+            location.href = location.href + '/';
+        }
+    </script>
+   
+</head>
+<body>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/angular.js")
+    @Scripts.Render("~/Scripts/angular-route.js")
+    @Scripts.Render("~/Scripts/jquery.min.js")
+    @Scripts.Render("~/Scripts/jquery.isotope.min.js")
+    @Scripts.Render("~/Scripts/tileshow.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+   
+    @Scripts.Render("~/Scripts/script.js")
+    @Scripts.Render("~/app/app.js")
+    @Scripts.Render("~/app/data/data.js")
+    @Scripts.Render("~/app/dashboard/dashboard.js")
+   
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

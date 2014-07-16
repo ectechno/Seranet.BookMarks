@@ -1,0 +1,110 @@
+﻿<div ng-controller="dashboardCtrl">
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-sm-3 col-md-2 sidebar">
+
+                <div id="logo">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <h1><a href="#">99x Technology</a></h1>
+
+                </div>
+                <div id="side-list">
+                    <div id="search-area">
+                        <form>
+                            <input type="text" name="s" placeholder="Search..." required class="form-control" ng-model="filter.appsearch">
+                        </form>
+                    </div>
+                    <ul id="app-list" ng-repeat="app in applist | filter:filter.appsearch">
+
+
+                        <li>
+                            <div class="menu-abs-bg background-color"></div>
+                            <div class="menu-specs">
+                                <div class="{{app.leftMeunuClass}}"></div>
+                                <a href="{{app.href}}" title="{{ app.title }}">{{ app.title }}</a>
+                                <span>{{app.description}}</span>
+                            </div>
+                            <div ng-click="addToDashBord(app)" >Add</div>
+
+                        </li>
+
+
+
+                    </ul>
+                </div>
+              
+
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div id="user-header" class="row">
+                    <div class="col-md-12">
+                        <div class="pull-right">
+                            <ul class="nav nav_menu">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle administrator" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+                                        <div class="title"><span class="name">User1</span><span class="subtitle">UI Engineer</span></div>
+                                        <span class="icon"><img src="images/img1.jpg" height="75"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!-- MAIN CONTENT SECTION -->
+                        <section id="content">
+
+                            <!-- SECTION -->
+                            <section class="clearfix section">
+
+                                <div ng-repeat="app in defaultAppList | filter:filter.appsearch">
+
+                                    <div>
+                                        <div class="{{app.applistMainClass}}">
+                                            <a class="link" href="{{app.href}}" target="_blank">
+                                                <i class="{{app.appListClass}}"></i>
+                                                <p class="title">{{app.title}}</p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div ng-click="removeFromDashBoard(app)">
+                                            Remove
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                              
+                            </section>
+                            <!-- /SECTION -->
+
+
+
+
+
+
+                        </section>
+                        <!-- /MAIN CONTENT SECTION -->
+
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
