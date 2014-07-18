@@ -59,14 +59,14 @@
 
 #app-list li{
     display: block;
-    float: left;
+    /*float: left;*/
     position: relative;
     width: 100%;
 }
 
 .menu-specs{
     position: relative;
-    float: left;
+    /*float: left;*/
     z-index: 1;
     background-position: 20px center;
     padding: 25px 0 20px 63px;
@@ -315,3 +315,25 @@
 .white-social-twit  {background-image: url("one_icons/social_twitter.png");background-repeat: no-repeat}
 .white-social-goog  {background-image: url("one_icons/social_google_plus.png");background-repeat: no-repeat}
 .white-social-yout  {background-image: url("one_icons/social_youtube.png");background-repeat: no-repeat}
+
+
+.add-left-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor:pointer;
+    width:32px;
+    height:32px;
+    z-index:10;
+    display:none;
+}
+.remove-dash-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor:pointer;
+    width:32px;
+    height:32px;
+    z-index:10;
+    display:none;
+}

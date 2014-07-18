@@ -27,3 +27,23 @@ function () {
 
 }
 )();
+
+$(function () {
+    $(document).on({
+        mouseenter: function () {
+            $(".add-left-list", this).show();
+        },
+        mouseleave: function () {
+            $(".add-left-list", this).hide();
+        }
+    }, '#app-list li');
+
+    $(document).on({
+        mouseenter: function () {
+            $(".remove-dash-list", this).show();
+        },
+        mouseleave: function () {
+            $(".remove-dash-list", this).hide();
+        }
+    }, '#app-tile-dash');
+});
