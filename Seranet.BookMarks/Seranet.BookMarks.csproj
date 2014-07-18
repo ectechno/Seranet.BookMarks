@@ -274,6 +274,7 @@
     <Content Include="Images\09_thumbnail.jpg" />
     <Content Include="Images\10_thumbnail.jpg" />
     <Content Include="Images\11_thumbnail.jpg" />
+    <Content Include="Images\add.png" />
     <Content Include="Images\background-1.jpg" />
     <Content Include="Images\blogpost-1.jpg" />
     <Content Include="Images\blogpost-2.jpg" />
@@ -369,6 +370,8 @@
     <Content Include="Images\metro\yahoo.png" />
     <Content Include="Images\preloader.gif" />
     <Content Include="Images\profile.jpg" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-cookies.js" />
@@ -726,7 +729,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>36652</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
