@@ -18,6 +18,7 @@
 
                            //},
                            {
+                                "id" :"1",
                                 "title": "About Us",
                                 "leftMeunuClass": "aboutus-icon",
                                 "appListClass": "icon-user icon-4x",
@@ -26,6 +27,7 @@
                                 "description": "Perspiciatis unde"
                            },
                             {
+                                "id": "2",
                                 "title": "Contact",
                                 "leftMeunuClass": "contact-icon",
                                 "appListClass": "icon-envelope icon-4x",
@@ -38,25 +40,26 @@
         }
 
         this.defaultAppList = function () {
-            var applist =  [
-                           {
-                               "title": "About Us",
-                               "leftMeunuClass": "aboutus-icon",
-                               "appListClass": "icon-user icon-4x",
-                               "applistMainClass": "tile orange w2 h1 icon-featurecw title-fadeout",
-                               "href": "#",
-                               "description": "Perspiciatis unde"
+            var applist = ["1"];
+            //var applist =  [
+            //               {
+            //                   "title": "About Us",
+            //                   "leftMeunuClass": "aboutus-icon",
+            //                   "appListClass": "icon-user icon-4x",
+            //                   "applistMainClass": "tile orange w2 h1 icon-featurecw title-fadeout",
+            //                   "href": "#",
+            //                   "description": "Perspiciatis unde"
 
-                          }, 
-                           // {
-                           //     "title": "Contact",
-                           //     "leftMeunuClass": "contact-icon",
-                           //     "appListClass": "icon-envelope icon-4x",
-                           //     "applistMainClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
-                           //     "href": "#",
-                           //     "description": "Vestibulum cursus"
-                           // }
-            ]
+            //              }, 
+            //               // {
+            //               //     "title": "Contact",
+            //               //     "leftMeunuClass": "contact-icon",
+            //               //     "appListClass": "icon-envelope icon-4x",
+            //               //     "applistMainClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
+            //               //     "href": "#",
+            //               //     "description": "Vestibulum cursus"
+            //               // }
+            //]
 
             return applist;
         };
