@@ -71,7 +71,7 @@
                             <!-- SECTION -->
                             <section class="clearfix section">
 
-                                <div id="app-tile-dash" ng-repeat="app in defaultAppList | filter:filter.appsearch">
+                                <div id="app-tile-dash" ng-repeat="app in appToShow | filter:filter.appsearch">
                                     <div>
                                         <div class="{{app.applistMainClass}}">
                                             <a class="link" href="{{app.href}}" target="_blank">
