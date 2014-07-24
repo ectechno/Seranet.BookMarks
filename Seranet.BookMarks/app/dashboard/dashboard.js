@@ -11,7 +11,8 @@ function () {
 
 
                 var initilizeVisibleAppList = function () {
-                    var userApps =JSON.parse( localStorage.getItem(userAppKey));
+                    var userApps = JSON.parse(localStorage.getItem(userAppKey));
+                    userApps = null;
                     if ( userApps == null || userApps.length === 0) {
                         for (appKey in applist) {
                             var appObj = applist[appKey];
@@ -33,7 +34,8 @@ function () {
               
                 var addToDashBord = function (app) {
                     var i = defaultAppList.indexOf(app);
-                    if(i=== -1){
+                    
+                    if(i=== -1 && appToShow.indexOf(app) ===-1){
                         appToShow.push(app);
                         localStorage.setItem(userAppKey,JSON.stringify( appToShow));
                     }
