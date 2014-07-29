@@ -12,7 +12,7 @@ function () {
 
                 var initilizeVisibleAppList = function () {
                     var userApps = JSON.parse(localStorage.getItem(userAppKey));
-                    userApps = null;
+                   
                     if ( userApps == null || userApps.length === 0) {
                         for (appKey in applist) {
                             var appObj = applist[appKey];
