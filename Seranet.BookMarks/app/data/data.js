@@ -23,7 +23,7 @@
                                 "leftMeunuClass": "aboutus-icon",
                                 "appListClass": "icon-user icon-4x",
                                 "applistMainClass": "tile orange w2 h1 icon-featurecw title-fadeout",
-                                "href": "#",
+                                "href": "http://google.com",
                                 "description": "Perspiciatis unde"
                            },
                             {
@@ -32,7 +32,7 @@
                                 "leftMeunuClass": "contact-icon",
                                 "appListClass": "icon-envelope icon-4x",
                                 "applistMainClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
-                                "href": "#",
+                                "href": "http://www.linkedin.com",
                                 "description": "Vestibulum cursus"
                           }
             ]
