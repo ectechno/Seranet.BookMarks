@@ -29,7 +29,7 @@
                         <li ng-repeat="app in applist | filter:filter.appsearch">
                             <div class="menu-abs-bg background-color"></div>
                             <div class="menu-specs">
-                                <div class="{{app.leftMeunuClass}}"></div>
+                                <div class="{{app.leftMeunuTileClass}}"></div>
                                 <a href="{{app.href}}" title="{{ app.title }}">{{ app.title }}</a>
                                 <span>{{app.description}}</span>
                             </div>
@@ -73,9 +73,9 @@
 
                                 <div id="app-tile-dash" ng-repeat="app in appToShow | filter:filter.appsearch">
                                     <div>
-                                        <div class="{{app.applistMainClass}}">
+                                        <div class="{{app.tileContainerClass}}">
                                             <a class="link" href="{{app.href}}" target="_blank">
-                                                <i class="{{app.appListClass}}"></i>
+                                                <i class="{{app.mainTileClass}}"></i>
                                                 <p class="title">{{app.title}}</p>
                                             </a>
                                             <div class="remove-dash-list" ng-click="removeFromDashBoard(app)"><img src="Images/remove.png" /></div>
