@@ -77,7 +77,8 @@
     height: 30px;
     position: absolute;
     left: 20px;
-    top: 26px
+    top: 26px;
+    font-size:25px;
 }
 
 #app-list li a, #app-list li span{
@@ -116,6 +117,15 @@
     color: #000000;
 }
 
+
+/* List Style */
+.tile  .link a{
+    text-decoration:none;
+}
+.tile  .link i{
+   font-size:65px;
+   text-decoration:none;
+}
 
 #user-header ul>li {
 	float: left;
