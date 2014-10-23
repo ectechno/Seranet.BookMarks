@@ -102,8 +102,7 @@
                                     "tileContainerClass": "tile orange  icon-featurecw title-fadeout w2 h1",
                                     "href": "",
                                     "description": ""
-                                }
-                                ,
+                                },
                                 {
                                     "id": "10",
                                     "title": "99X CSR",
@@ -113,26 +112,108 @@
                                     "href": "https://www.facebook.com/99XTechnologyCSR",
                                     "description": ""
                                 }
+                                
                                 ,
                                 {
                                     "id": "11",
-                                    "title": "Twitter",
-                                    "leftMeunuTileClass": "fa fa-twitter",
-                                    "mainTileClass": "fa fa-twitter",
+                                    "title": "Colombo Camps Community",
+                                    "leftMeunuTileClass": "fa fa-facebook",
+                                    "mainTileClass": "fa fa-facebook",
                                     "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
-                                    "href": "http://twitter.com/99xtechnology",
+                                    "href": "http://www.colombocamps.com/",
                                     "description": ""
-                                }
-                                ,
+                                },
                                 {
                                     "id": "12",
+                                    "title": "99X Web Mail",
+                                    "leftMeunuTileClass": "fa fa-envelope",
+                                    "mainTileClass": "fa fa-envelope",
+                                    "tileContainerClass": "tile green title-featurefade icon-scaledownrotate360cw w2 h1",
+                                    "href": "https://mail.99xtechnology.com/owa",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "13",
+                                    "title": "My Retro",
+                                    "leftMeunuTileClass": "fa fa-facebook",
+                                    "mainTileClass": "fa fa-facebook",
+                                    "tileContainerClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
+                                    "href": "https://www.facebook.com/99XTechnology",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "14",
+                                    "title": "Employee Geo",
+                                    "leftMeunuTileClass": "fa fa-globe",
+                                    "mainTileClass": "fa fa-globe",
+                                    "tileContainerClass": "tile blue title-scaleup icon-scaledownrotate360cw w2 h1",
+                                    "href": "",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "15",
+                                    "title": "Service API",
+                                    "leftMeunuTileClass": "fa fa-plug",
+                                    "mainTileClass": "fa fa-plug",
+                                    "tileContainerClass": "tile yellow title-verticalcenter title-scaleup w2 h1",
+                                    "href": "http://99xt.lk/services",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "16",
                                     "title": "FaceBook",
                                     "leftMeunuTileClass": "fa fa-facebook",
                                     "mainTileClass": "fa fa-facebook",
                                     "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
                                     "href": "https://www.facebook.com/99XTechnology",
                                     "description": ""
+                                },
+                                {
+                                    "id": "17",
+                                    "title": "Twitter",
+                                    "leftMeunuTileClass": "fa fa-twitter",
+                                    "mainTileClass": "fa fa-twitter",
+                                    "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
+                                    "href": "http://twitter.com/99xtechnology",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "18",
+                                    "title": "Yammer",
+                                    "leftMeunuTileClass": "fa fa-twitter",
+                                    "mainTileClass": "fa fa-twitter",
+                                    "tileContainerClass": "tile turquoise title-featurefade icon-scaledownrotate360cw w2 h1",
+                                    "href": "https://www.yammer.com/99x.lk",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "19",
+                                    "title": "Life @99x",
+                                    "leftMeunuTileClass": "fa fa-smile-o",
+                                    "mainTileClass": "fa fa-smile-o",
+                                    "tileContainerClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
+                                    "href": "http://blog.99xtechnology.com/",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "20",
+                                    "title": "YouTube",
+                                    "leftMeunuTileClass": "fa fa-youtube",
+                                    "mainTileClass": "fa fa-youtube",
+                                    "tileContainerClass": "tile red title-scaleup icon-scaledownrotate360cw w2 h1",
+                                    "href": "https://www.youtube.com/user/99XTechnology",
+                                    "description": ""
+                                },
+                                {
+                                    "id": "21",
+                                    "title": "LinkedIn",
+                                    "leftMeunuTileClass": "fa fa-linkedin-square",
+                                    "mainTileClass": "fa fa-linkedin-square",
+                                    "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
+                                    "href": "https://www.linkedin.com/company/99xtechnology",
+                                    "description": ""
                                 }
+
 
 
             ]
@@ -140,27 +221,8 @@
         }
 
         this.defaultAppList = function () {
-            var applist = ["1"];
-            //var applist =  [
-            //               {
-            //                   "title": "About Us",
-            //                   "leftMeunuClass": "aboutus-icon",
-            //                   "appListClass": "icon-user icon-4x",
-            //                   "applistMainClass": "tile orange w2 h1 icon-featurecw title-fadeout",
-            //                   "href": "#",
-            //                   "description": "Perspiciatis unde"
-
-            //              }, 
-            //               // {
-            //               //     "title": "Contact",
-            //               //     "leftMeunuClass": "contact-icon",
-            //               //     "appListClass": "icon-envelope icon-4x",
-            //               //     "applistMainClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
-            //               //     "href": "#",
-            //               //     "description": "Vestibulum cursus"
-            //               // }
-            //]
-
+            var applist = ["1","2","3","4","5","8","12","13","15","16","21"];
+          
             return applist;
         };
     });
