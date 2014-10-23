@@ -26,7 +26,7 @@
                     <ul id="app-list">
 
 
-                        <li ng-repeat="app in applist | filter:filter.appsearch">
+                        <li ng-repeat="app in pendingApps | filter:filter.appsearch | orderBy :id">
                             <div class="menu-abs-bg background-color"></div>
                             <div class="menu-specs">
                                 <div class="{{app.leftMeunuTileClass}}"></div>
