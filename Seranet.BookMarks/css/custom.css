@@ -347,3 +347,9 @@
     z-index:10;
     display:none;
 }
+
+.main-title {
+    margin:15px 10px;
+    font-weight:normal;
+    color:#161719;
+}
