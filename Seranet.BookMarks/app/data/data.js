@@ -116,9 +116,9 @@
                                 ,
                                 {
                                     "id": "11",
-                                    "title": "Colombo Camps Community",
-                                    "leftMeunuTileClass": "fa fa-facebook",
-                                    "mainTileClass": "fa fa-facebook",
+                                    "title": "CCC",
+                                    "leftMeunuTileClass": "fa fa-copyright",
+                                    "mainTileClass": "fa fa-copyright",
                                     "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
                                     "href": "http://www.colombocamps.com/",
                                     "description": ""
@@ -135,8 +135,8 @@
                                 {
                                     "id": "13",
                                     "title": "My Retro",
-                                    "leftMeunuTileClass": "fa fa-facebook",
-                                    "mainTileClass": "fa fa-facebook",
+                                    "leftMeunuTileClass": "fa fa-comments",
+                                    "mainTileClass": "fa fa-comments",
                                     "tileContainerClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
                                     "href": "https://www.facebook.com/99XTechnology",
                                     "description": ""
@@ -180,8 +180,8 @@
                                 {
                                     "id": "18",
                                     "title": "Yammer",
-                                    "leftMeunuTileClass": "fa fa-twitter",
-                                    "mainTileClass": "fa fa-twitter",
+                                    "leftMeunuTileClass": "fa fa-hacker-news",
+                                    "mainTileClass": "fa fa-hacker-news",
                                     "tileContainerClass": "tile turquoise title-featurefade icon-scaledownrotate360cw w2 h1",
                                     "href": "https://www.yammer.com/99x.lk",
                                     "description": ""
