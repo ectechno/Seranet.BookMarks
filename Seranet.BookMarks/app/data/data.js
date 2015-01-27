@@ -147,7 +147,7 @@
                                     "leftMeunuTileClass": "fa fa-globe",
                                     "mainTileClass": "fa fa-globe",
                                     "tileContainerClass": "tile blue title-scaleup icon-scaledownrotate360cw w2 h1",
-                                    "href": "",
+                                    "href":"http://99xt.lk/geo",
                                     "description": ""
                                 },
                                 {
