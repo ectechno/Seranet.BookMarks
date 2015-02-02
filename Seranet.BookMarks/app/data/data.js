@@ -32,7 +32,7 @@
                                 "leftMeunuTileClass": "fa fa-users",
                                 "mainTileClass": "fa fa-users",
                                 "tileContainerClass": "tile orange  icon-featurecw title-fadeout w2 h1",
-                                "href": "http://people.99xtechnology.com",
+                                "href": "http://people.99xt.lk",
                                 "description": "Human Resource Management System"
                             }
 
@@ -43,7 +43,7 @@
                                 "leftMeunuTileClass": "fa fa-cogs",
                                 "mainTileClass": "fa fa-cogs",
                                 "tileContainerClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
-                                "href": "http://99fix.99x.lk/portal",
+                                "href": "http://99fix.99xt.lk/portal",
                                 "description": ""
                             },
                              {
@@ -52,7 +52,7 @@
                                  "leftMeunuTileClass": "fa fa-line-chart",
                                  "mainTileClass": "fa fa-line-chart",
                                  "tileContainerClass": "tile turquoise title-horizontalcenter icon-scaledownrotate360cw w2 h1",
-                                 "href": "http://portal.99xtechnology.com/",
+                                 "href": "http://portal.99xt.lk/",
                                  "description": ""
                              },
                               {
@@ -90,7 +90,7 @@
                                     "leftMeunuTileClass": "fa fa-clock-o",
                                     "mainTileClass": "fa fa-clock-o",
                                     "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
-                                    "href": "http://timesheets.99xtechnology.com/",
+                                    "href": "http://timesheets.99xt.lk/",
                                     "description": ""
                                 }
                                 ,
