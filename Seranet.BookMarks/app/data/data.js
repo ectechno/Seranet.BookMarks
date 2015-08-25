@@ -223,6 +223,15 @@
                                     "href": "http://hrsupport.99xt.lk/portal",
                                     "description": ""
                                 }
+                                 {
+                                    "id": "23",
+                                    "title": "Spec",
+                                    "leftMeunuTileClass": "fa fa-cog",
+                                    "mainTileClass": "fa fa-cog",
+                                    "tileContainerClass": "tile purple title-scaleup icon-scaledownrotate360cw w2 h1",
+                                    "href": "http://99xt.lk/spec",
+                                    "description": ""
+                                }
 
 
             ]
@@ -230,7 +239,7 @@
         }
 
         this.defaultAppList = function () {
-            var applist = ["1","2","3","4","5","8","12","13","15","16","21"];
+            var applist = ["1","2","3","4","5","8","12","13","15","16","21","22","23"];
           
             return applist;
         };
