@@ -213,7 +213,16 @@
                                     "href": "https://www.linkedin.com/company/99xtechnology",
                                     "description": ""
                                 }
-
+,
+                                {
+                                    "id": "22",
+                                    "title": "HR Support",
+                                    "leftMeunuTileClass": "fa fa-user-plus",
+                                    "mainTileClass": "fa fa-user-plus",
+                                    "tileContainerClass": "tile yellow title-verticalcenter title-scaleup w2 h1",
+                                    "href": "http://hrsupport.99xt.lk/portal",
+                                    "description": ""
+                                }
 
 
             ]
