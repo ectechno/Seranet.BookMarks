@@ -212,7 +212,7 @@
                                     "tileContainerClass": "tile blue title-verticalcenter title-scaleup w2 h1",
                                     "href": "https://www.linkedin.com/company/99xtechnology",
                                     "description": ""
-                                }
+                                },
 ,
                                 {
                                     "id": "22",
@@ -222,7 +222,7 @@
                                     "tileContainerClass": "tile yellow title-verticalcenter title-scaleup w2 h1",
                                     "href": "http://hrsupport.99xt.lk/portal",
                                     "description": ""
-                                }
+                                },
                                  {
                                     "id": "23",
                                     "title": "Spec",
